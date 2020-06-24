@@ -14,7 +14,7 @@ def find_even_values(src)
   # check to see if the current element is even, if so push into new array 
       if(src[outer_counter][inner_counter] % 2 == 0)
         evens << src[outer_counter][inner_counter]
-      end
+      end if
       inner_counter+=1
     end
     outer_counter+=1 
