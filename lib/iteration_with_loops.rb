@@ -11,11 +11,11 @@ def find_even_values(src)
   while(outer_counter < src.length) do
     while(inner_counter < src[outer_counter].length) do
       if(src[outer_counter][inner_counter] % 2 == 0)
-        puts src[outer_counter][inner_counter]
+        evens.push(src[outer_counter][inner_counter])
       end
       inner_counter+=1 
     end
     outer_counter+=1
   end
-
+ evens
 end
