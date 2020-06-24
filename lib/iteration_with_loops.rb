@@ -7,17 +7,12 @@ def find_even_values(src)
   outer_counter = 0
   inner_counter = 0 
   evens = []
-  # iterate through outerloop, based off length of src looping through each array
-  while outer_counter < src do
-  #iterate through each array 
-    while inner_counter < scr[outer_counter].length do
-  # check to see if the current element is even, if so push into new array 
-      if(src[outer_counter][inner_counter] % 2 == 0)
-        puts src[outer_counter][inner_counter]
-      end if
-      inner_counter+=1
-    end while
-    outer_counter+=1 
-  end while
-  # return new array 
+  while(outer_counter < src.length) do
+    while(inner_counter < src[outer_counter].length) do
+      if(scr[outer_counter][inner_counter] % 2 == 0)
+        p scr[outer_counter][inner_counter]
+      end
+      inner_counter+=1 
+    end
+    outer_counter+=1
 end
