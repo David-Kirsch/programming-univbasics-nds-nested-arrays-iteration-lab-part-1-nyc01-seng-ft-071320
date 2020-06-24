@@ -13,7 +13,7 @@ def find_even_values(src)
     while inner_counter < scr[outer_counter].length do
   # check to see if the current element is even, if so push into new array 
       if(src[outer_counter][inner_counter] % 2 == 0)
-        p src[outer_counter][inner_counter]
+        puts src[outer_counter][inner_counter]
       end if
       inner_counter+=1
     end while
