@@ -4,6 +4,7 @@ def find_even_values(src)
   # Output all even values in each nested array
   
   #create counter var 
+  def find_even_values(src)
   outer_counter = 0
   inner_counter = 0 
   evens = []
