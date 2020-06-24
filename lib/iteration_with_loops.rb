@@ -16,9 +16,9 @@ def find_even_values(src)
         evens << src[outer_counter][inner_counter]
       end if
       inner_counter+=1
-    end
+    end while
     outer_counter+=1 
-  end
+  end while
   # return new array 
   evens
 end
